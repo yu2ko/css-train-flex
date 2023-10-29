@@ -1,147 +1,232 @@
+/* 'Завдання 1' description='Гнучко спозіціонуйте елементи .item  в контейнері .task1' */
 .task1 {
+  display: flex;
 }
 
+/* 'Завдання 2' description='Гнучко спозіціонуйте елементи .item горизонтально зліва направо. в контейнері .task2' */
 .task2 {
   display: flex;
+  flex-direction: row;
 }
 
+/* 'Завдання 3' description='Гнучко спозіціонуйте елементи .item горизонтально справа наліво в контейнері .task3' */
 .task3 {
   display: flex;
+  flex-direction: row-reverse;
 }
 
+/* 'Завдання 4' description='Гнучко спозіціонуйте елементи .item вертикально зверху вниз. в контейнері .task4' */
 .task4 {
   display: flex;
+  flex-direction: column;
 }
 
+/* 'Завдання 5' description='Гнучко спозіціонуйте елементи .item вертикально знизу вверх. в контейнері .task5' */
 .task5 {
   display: flex;
+  flex-direction: column-reverse;
 }
 
+/* 'Завдання 6' description='Гнучко спозіціонуйте елементи .item з переносу в контейнері .task6' */
 .task6 {
   display: flex;
+  flex-wrap: wrap;
 }
 
+/* 'Завдання 7' description='Гнучко спозіціонуйте елементи .item без переносом в контейнері .task7' */
 .task7 {
   display: flex;
+  flex-wrap: nowrap;
 }
 
+/* 'Завдання 8' description='Гнучко спозіціонуйте елементи .item з переносом в зворотньому порядку в контейнері .task8' */
 .task8 {
   display: flex;
+  flex-wrap: wrap-reverse;
 }
 
+/* 'Завдання 9' description='Гнучко спозіціонуйте елементи .item горизонтально справа наліво з переносом  в контейнері .task9' */
 .task9 {
   display: flex;
+  flex-flow: row-reverse wrap;
 }
 
+/* 'Завдання 10' description='Розмістіть елементи .item на початку основної лінії в контейнері .task10' */
 .task10 {
   display: flex;
+  justify-content: flex-start;
 }
 
+/* 'Завдання 11' description='Розмістіть елементи .item в кінці основної лінії в контейнері .task11' */
 .task11 {
   display: flex;
+  justify-content: flex-end;
 }
 
+/* 'Завдання 12' description='Розмістіть елементи .item по центру основної лінії в контейнері .task12' */
 .task12 {
   display: flex;
+  justify-content: center;
 }
 
+/* 'Завдання 13' description='Розмістіть елементи .item рівномірно без відступів від країв по основної лінії в контейнері .task13' */
 .task13 {
   display: flex;
+  justify-content: space-between;
 }
 
+/* 'Завдання 14' description='Розмістіть елементи .item з однаковими відстанями між ними та з меншим відступом від країв контейнера по основної лінії в контейнері .task14' */
 .task14 {
   display: flex;
+  justify-content: space-around;
 }
 
+/* 'Завдання 15' description='Розмістіть елементи .item рівномірно по головній лінії з однаковими відстанями між елементами та країв блоку в контейнері .task15' */
 .task15 {
   display: flex;
+  justify-content: space-evenly;
 }
 
+/* 'Завдання 16' description='Розмістіть елементи .item так щоб вони заповнили всю основну линію в контейнері .task16' */
 .task16 {
   display: flex;
+  justify-content: stretch;
 }
 
+/* 'Завдання 17' description='Розмістіть елементи .item на початку другої лінії в контейнері .task17' */
 .task17 {
   display: flex;
+  align-content: start;
 }
 
+/* 'Завдання 18' description='Розмістіть елементи .item в кінці другої лінії в контейнері .task18' */
 .task18 {
   display: flex;
+  align-content: end;
 }
 
+/* 'Завдання 19' description='Розмістіть елементи .item по центру другої лінії в контейнері .task19' */
 .task19 {
   display: flex;
+  align-content: center;
 }
 
+/* 'Завдання 20' description='Розмістіть елементи .item так щоб вони заповнили всю другу линію в контейнері .task21' */
 .task20 {
   display: flex;
+  align-content: stretch;
 }
 
+/* 'Завдання 21' description='Розмістіть елементи .item рівномірно без відступів від країв по другій лінії в контейнері .task121' */
 .task21 {
   display: flex;
+  align-content: space-between;
 }
 
+/* 'Завдання 22' description='Розмістіть елементи .item з однаковими відстанями між ними та з меншим відступом від країв контейнера по другій лінії в контейнері .task22' */
 .task22 {
   display: flex;
+  align-content: space-around;
 }
 
+/* 'Завдання 23' description='Розмістіть елементи .item рівномірно по другій лінії з однаковими відстанями між елементами та країв блоку в контейнері .task23' */
 .task23 {
   display: flex;
+  align-content: space-evenly;
 }
 
+/* 'Завдання 24' description='Розмістіть елементи .item по центру основної лінії та на початку другїй лінії в контейнері .task24' */
 .task24 {
   display: flex;
+  justify-content: center;
+  align-content: start;
 }
 
+/* 'Завдання 25' description='Вирівняйте елементи .item на початку другої лінії в контейнері .task25' */
 .task25 {
   display: flex;
+  align-items: flex-start;
 }
 
+/* 'Завдання 26' description='Вирівняйте елементи .item в кінці другої лінії в контейнері .task26' */
 .task26 {
   display: flex;
+  align-items: flex-end;
 }
 
+/* 'Завдання 27' description='Вирівняйте елементи .item по центру другої лінії в контейнері .task27' */
 .task27 {
   display: flex;
+  align-items: center;
 }
 
+/* 'Завдання 28' description='Вирівняйте елементи .item так щоб вони заповнили всю основну линію в контейнері .task28' */
 .task28 {
   display: flex;
+  align-items: stretch;
 }
 
+/* 'Завдання 29' description='Вирівняйте елементи .item по рядку тексту по другїй лінії в контейнері .task29' */
 .task29 {
   display: flex;
+  align-items: center;
 }
 
+/* 'Завдання 30' description='Вирівняйте елемент .item1 по початку другої лінії в контейнері .task30' */
 .task30 .item1 {
+  align-self: flex-start;
 }
 
+/* 'Завдання 31' description='Вирівняйте елемент .item2 по краю другої лінії в контейнері .task31' */
 .task31 .item2 {
+  align-self: flex-end;
 }
 
+/* 'Завдання 32' description='Вирівняйте елемент .item3 по центру другої лінії в контейнері .task32' */
 .task32 .item3 {
+  align-self: center;
 }
 
+/* 'Завдання 33' description='Розтяніть елемент .item4 по другій лінії в контейнері .task33' */
 .task33 .item4 {
+  align-self: stretch;
 }
 
+/* 'Завдання 34' description='Задайте початкуову довжину флекс елементу .item1 в половоину батьківсього контейнера в контейнері .task34' */
 .task34 .item1 {
+  flex-basis: 50%;
 }
 
+/* 'Завдання 35' description='Встановіть елементу .item2 пропорційне збільшення в в довжині в розмірі 1 в контейнері .task35' */
 .task35 .item2 {
+  flex-grow: 1;
 }
 
+/* 'Завдання 36' description='Встановіть елементу .item3 пропорційне зменшення в довжині в розмірі 0.5 в контейнері .task36' */
 .task36 .item3 {
+  flex-shrink: 0.5;
 }
 
+/* 'Завдання 37' description='Встановіть елементу .item4 початкову ширину 200px, пропорційне збільшення та зменшення в довжині в розмірі 0 в контейнері .task37' */
 .task37 .item4 {
+  /* flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0; */
+  flex: 200px 0 0;
 }
 
+/* 'Завдання 38' description='Встановіть відступи між елементами .item 20рх між рядками та 30рх між колонками в контейнері .task38' */
 .task38 {
   display: flex;
+  gap: 20px 30px;
+  /* row-gap: 20px;
+	column-gap: 30px; */
 }
 
+/* 'Завдання 39' description='Виведіть елементи .item в порядку показаному на картинці в контейнері .task39' */
 .task39 .item1 {
+  order: 4;
 }
 .task39 .item3 {
+  order: 3;
 }
